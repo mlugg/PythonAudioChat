@@ -18,4 +18,4 @@ while True:
     conn1.sendall(from2)
 conn1.close()
 conn2.close()
-# Incredibly simplistic - should relay the messages of two client back to the other client. Will stop if wither connection fails or terminates.
+# Incredibly simplistic - should relay the messages of two client back to the other client. Will stop if either connection fails or terminates.
